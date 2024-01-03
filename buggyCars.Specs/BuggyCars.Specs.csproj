@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>BuggyCars</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.4.0-preview-20220726-02" />
+      <PackageReference Include="NUnit" Version="3.13.3" />
+      <PackageReference Include="NUnit3TestAdapter" Version="4.3.0-alpha-net7.4" />
+      <PackageReference Include="RestSharp" Version="108.0.3-alpha.0.5" />
+      <PackageReference Include="Selenium.WebDriver" Version="4.4.0" />
+      <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="106.0.5249.2100" />
+      <PackageReference Include="SpecFlow.NUnit" Version="4.0.16-beta" />
+    </ItemGroup>
+
+</Project>
